@@ -1,7 +1,7 @@
 # ZSL-KG
 ZSL-KG is a general-purpose zero-shot learning framework with a novel transformer graph convolutional network (TrGCN) to learn class representation from common sense knowledge graphs.
 
-[![Build Status](https://app.travis-ci.com/BatsResearch/zsl-kg.svg?token=jQxgqST7Y6ohrRv6XanM&branch=master)](https://app.travis-ci.com/github/nihalnayak/zsl-kg)
+[![Build Status](https://app.travis-ci.com/BatsResearch/zsl-kg.svg?token=jQxgqST7Y6ohrRv6XanM&branch=master)](https://app.travis-ci.com/github/BatsResearch/zsl-kg)
 
 Reference paper: [Zero-shot Learning with Common Sense Knowledge graphs](https://arxiv.org/abs/2006.10713).
 
