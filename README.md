@@ -1,7 +1,9 @@
 # ZSL-KG
 ZSL-KG is a general-purpose zero-shot learning framework with a novel transformer graph convolutional network (TrGCN) to learn class representation from common sense knowledge graphs.
 
-[![Build Status](https://app.travis-ci.com/nihalnayak/zsl-kg.svg?token=jQxgqST7Y6ohrRv6XanM&branch=master)](https://app.travis-ci.com/github/nihalnayak/zsl-kg)
+[![Build Status](https://app.travis-ci.com/BatsResearch/zsl-kg.svg?token=jQxgqST7Y6ohrRv6XanM&branch=master)](https://app.travis-ci.com/github/nihalnayak/zsl-kg)
+
+Reference paper: [Zero-shot Learning with Common Sense Knowledge graphs](https://arxiv.org/abs/2006.10713).
 
 ![alt text](assets/zsl-kg.png)
 
@@ -9,12 +11,12 @@ ZSL-KG is a general-purpose zero-shot learning framework with a novel transforme
 Performance ZSL-KG compared to other existing graph-based zero-shot learning frameworks.
 
 
-|    Method        | Ontonotes (Strict)    | BBN  (Strict)        | SNIPS-NLU  (Acc.)   | AWA2  (H)   | aPY   (H)   | ImageNet (All Top-1) | Avg.     |
-|------------|---------------|--------------|---------------|----------|----------|----------|----------|
-| GCNZ       | 41.5          | 21.5         | 82.5          | 73.3     | 58.1     | 1.0      | 46.3     |
-| SGCN       | 42.6          | 24.9         | 50.3          | 73.7     | 56.8     | 1.5      | 41.6     |
-| DGP        | 41.1          | 24.0         | 64.4          | **75.1** | 55.7     | 1.4      | 43.6     |
-| **ZSL-KG**     | **45.2**      | **26.7**     | **89.0**      | 74.6     | **61.6** | **1.7**  | **49.8** |
+|    Method        | Ontonotes (Strict) | BBN  (Strict)| SNIPS-NLU  (Acc.)   | AWA2  (H)   | aPY   (H)   | ImageNet (All T-1) | Avg.     |
+|------------------|--------------------|--------------|---------------------|-------------|-------------|----------|----------|
+| GCNZ             | 41.5               | 21.5         | 82.5                | 73.3        | 58.1        | 1.0      | 46.3     |
+| SGCN             | 42.6               | 24.9         | 50.3                | 73.7        | 56.8        | 1.5      | 41.6     |
+| DGP              | 41.1             | 24.0         | 64.4                | **75.1**    | 55.7        | 1.4      | 43.6     |
+| **ZSL-KG**       | **45.2**           | **26.7**     | **89.0**            | 74.6        | **61.6**    | **1.7**  | **49.8** |
 
 ZSL-KG outperforms existing graph-based frameworks on five out of six benchmark datasets.
 
@@ -70,7 +72,7 @@ pytest
 ```
 
 ## Citation
-Please cite the following paper if you are using our framework.
+Please cite the following [paper](https://arxiv.org/abs/2006.10713) if you are using our framework.
 
 ```
 @article{nayak:arxiv20,
