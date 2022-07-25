@@ -20,7 +20,7 @@ Performance ZSL-KG compared to other existing graph-based zero-shot learning fra
 
 ZSL-KG outperforms existing graph-based frameworks on five out of six benchmark datasets.
 
-For more details on the experiments, refer to [nayak-arxiv20-code](https://github.com/BatsResearch/nayak-arxiv20-code).
+For more details on the experiments, refer to [nayak-tmlr22-code](https://github.com/BatsResearch/nayak-tmlr22-code).
 ## Installation
 The package requires `python >= 3.7`. To install the package, type the following command:
 ```
@@ -63,7 +63,7 @@ class_encoder = AutoGNN(trgcn)
 Our framework supports the following graph neural networks: `gcn, gat, rgcn, lstm, trgcn`.
 You can change the `type` to any of the available to graph neural networks to instantly create a new graph neural network.
 
-For more examples, refer to [nayak-arxiv20-code](https://github.com/BatsResearch/nayak-arxiv20-code).
+For more examples, refer to [nayak-tmlr22-code](https://github.com/BatsResearch/nayak-tmlr22-code).
 
 ## Run Tests
 To run the tests, please type the following command:
@@ -75,9 +75,9 @@ pytest
 Please cite the following [paper](https://arxiv.org/abs/2006.10713) if you are using our framework.
 
 ```
-@article{nayak:arxiv20,
-  Author = {Nayak, Nihal V. and Bach, Stephen H.},
+@article{nayak:tmlr22,
+  Author = {Nayak, N. V. and Bach, S. H.},
   Title = {Zero-Shot Learning with Common Sense Knowledge Graphs},
-  Volume = {arXiv:2006.10713 [cs.LG]},
-  Year = {2020}}
+  Journal = {Transactions on Machine Learning Research (TMLR)},
+  Year = {2022}}
 ```
