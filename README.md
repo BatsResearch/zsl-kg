@@ -76,7 +76,7 @@ Please cite the following [paper](https://arxiv.org/abs/2006.10713) if you are u
 
 ```
 @article{nayak:tmlr22,
-  Author = {Nayak, N. V. and Bach, S. H.},
+  Author = {Nayak, Nihal V. and Bach, Stephen H.},
   Title = {Zero-Shot Learning with Common Sense Knowledge Graphs},
   Journal = {Transactions on Machine Learning Research (TMLR)},
   Year = {2022}}
